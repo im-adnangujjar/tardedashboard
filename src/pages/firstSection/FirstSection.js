@@ -26,7 +26,7 @@ function FirstSection() {
           <div className=' pl-4' style={styles.flex}>
             {
               data.map((item, index) => {
-                return <div key={index}><Rule data={item} /></div>
+                return <div key={index}><Rule data={item}/></div>
               })}
 
           </div>
@@ -42,7 +42,7 @@ function FirstSection() {
               </div>
               {
                 data1.map((item, index) => {
-                  return <div key={index}><Information data1={item} /></div>
+                  return <Information data1={item} />
                 })}
               <div style={styles.flex1}>
                 <h3 className='text-white text-xl pl-4'> Trades <span>(2500)</span></h3>
@@ -51,31 +51,28 @@ function FirstSection() {
                   <DropDown title="Price" />
                 </div>
               </div>
-
               {
                 data2.map((item, index) => {
                   return <div key={index}><Informationpart2 data2={item} /></div>
                 })}
             </div>
             <div>
-              <div classname='' style={{ height: '550px', marginLeft: '128px',marginRight:'40px' }}>
-                <div style={styles.flex1}>
-                <div className='text-white '>Trades</div>
-                <div style={styles.flex}>
-                  <div className='mr-6'>
-                 <DropButton title='Interval 5M'/> 
-                 </div>
-                 <div className='mr-6'>
-                 <DropButton title='span 7D'/> 
-                 </div>
-                 
-                 <p className='text-white mr-6'>Outliers</p> <OnButton/>
-                 </div>
-                 </div>
-
+              <div style={{ height: '550px', marginLeft: '128px', marginRight: '40px' }}>
+                <div className='mt-6' style={styles.flex1}>
+                  <div className='text-white '>Trades</div>
+                  <div style={styles.flex3}>
+                    <div className='mr-6'>
+                      <DropButton title='Interval 5M' />
+                    </div>
+                    <div className='mr-6'>
+                      <DropButton title='span 7D' />
+                    </div>
+                    <p className='text-white mr-6'>Outliers</p> <OnButton />
+                  </div>
+                </div>
                 <Graph2 />
+                <Graph />
               </div>
-              <Graph />
             </div>
           </div>
         </div>

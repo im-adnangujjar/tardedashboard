@@ -36,9 +36,10 @@ const styles = {
     },
     flex1:{
         display:'flex',
+        width:'1600px',
         justifyContent:'space-between',
-        alignItems:'center',
-        margin:'0px 0px0px 20px',
+        // alignItems:'center',
+        // margin:'0px 0px0px 20px',
 
     },
     flex:{

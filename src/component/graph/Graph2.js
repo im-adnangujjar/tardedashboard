@@ -1037,10 +1037,15 @@ export default function Graph2() {
     className="App"
     style={{
       backgroundColor:'#202226',
-      width:'700px',
+      width:'650px',
       height:'500px',
     }}
   >
+    <style>{`
+    text{
+      fill: white !important
+    }
+    `}</style>
     <ResponsiveScatterPlot
         data={data}
         margin={{ top: 60, right: 140, bottom: 70, left: 90 }}
@@ -1068,12 +1073,12 @@ export default function Graph2() {
             tickPadding: 5,
             tickRotation: -1,
             legend: 'price ETH',
+            legendFill:'white',
+            textColor:"white",
+            legendBackground:"white",
+            legendItemTextColor:"white",
             legendPosition: 'middle',
-            color:'white',
             legendOffset: -60
-        }}
-        text={{
-          fill:"#fff"
         }}
         motionConfig={{
             mass: 198,
@@ -1083,7 +1088,6 @@ export default function Graph2() {
             precision: 0.01,
             velocity: 0
         }}
-        legends={[]}
     />
 </div>
   )

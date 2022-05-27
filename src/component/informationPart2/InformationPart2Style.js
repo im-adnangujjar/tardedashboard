@@ -7,7 +7,7 @@
         borderRadius:'10px',
         padding:'0px 14px 0px 12px',
         margin:'8px 0px',
-        boxShadow: '  ',
+        width:'700px',
     },
     flex1: {
         display: "flex",
