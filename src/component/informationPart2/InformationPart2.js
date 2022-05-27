@@ -11,7 +11,7 @@ function InformationPart2({ data2 }) {
             <div style={styles.flex1} >
                 <img className="w-10 mr-2 h-9 rounded-md" src={data2.image} alt="image not found" />
                 <p style={styles.title} className='w-12'>{data2.title}</p>
-                <p style={{color:data2.color,} }  className="w-16">{data2.rank}</p>
+                <p style={{color:data2.color,} }  className="w-16 text-sm">{data2.rank}</p>
                 <p style={styles.rank} className="w-20" >{data2.rank1}</p>
                 <p style={styles.time} className="w-20">{data2.time}</p>
             </div>

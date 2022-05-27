@@ -12,7 +12,7 @@ import { data } from '../../constants/Constant'
                 <div style={styles.flex1} >
                     <img className="w-10 h-9 mr-2 rounded-md" src={data1.image} alt="image not found" />
                     <p style={styles.title} className='w-14'>{data1.title}</p>
-                    <p  style={{color:data1.color}} className="w-20">{data1.rank}</p>
+                    <p  style={{color:data1.color}} className="w-20 text-sm">{data1.rank}</p>
                     <p style={styles.rank} className="w-20">{data1.rank1}</p>
                     <p style={styles.time}className="w-20">{data1.time}</p>
                 </div>

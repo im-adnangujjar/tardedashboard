@@ -31,7 +31,7 @@ function TopBar() {
                 </div>
                 <div style={styles.search} >
                     <input style={styles.input} type='text' placeholder='Token ID' />
-                    <div style={styles.display} className='bg-sky-500/100 w-20 h-9 mr-10'><img className="mr-2"src={search} alt='icon not found' />
+                    <div style={styles.display} className='bg-sky-500/100 w-20 h-9 mr-10'><img className="mr-1"src={search} alt='icon not found' />
                         <p style={styles.text}>search</p>
                     </div>
                 </div>

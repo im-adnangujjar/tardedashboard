@@ -18,8 +18,6 @@ const styles = {
         fontSize0: '14px',
         fontWeight: '500',
         lineHeight: '20px',
-        letterSpacing: '0em',
-        textAlign: 'left',
         color: 'white',
     
     },
