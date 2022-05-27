@@ -41,7 +41,7 @@ function TopBar() {
                 <p className='text-white'>Top Collections :</p>
                 <div style={styles.flex} className='bg-[#292B32] rounded-lg mr-3 ml-6 "drop-shadow-md ..."'><img className='w-4 h-6  mr-2' src={image2} alt='image not found' /><p className='text-white text-xs'>Moonbird has 6 listing until +30% floor</p></div>
                 <div style={styles.flex} className='bg-[#292B32] rounded-lg mr-3 "drop-shadow-md ..."'><img className='w-4 h-5   mr-2' src={Bitmap} alt='image not found' /><p className='text-white text-xs'>Larva Doods minted 300 times in the last 5 minutes</p></div>
-                <div style={styles.flex} className='bg-[#292B32] rounded-lg "drop-shadow-md ..."'><img className='w-10 h-4  mr-2' src={image3} alt='image not found' /><p className='text-white text-xs'><span className='text-blue'>Moonbird</span> has 6 listing until +30% floor</p></div>
+                <div style={styles.flex} className='bg-[#292B32] rounded-lg "drop-shadow-md ..."'><img className='w-4 h-4  mr-2' src={image3} alt='image not found' /><p className='text-white text-xs'><span className='text-blue'>Moonbird</span> has 6 listing until +30% floor</p></div>
             </div>
         </div>
     )

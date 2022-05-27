@@ -58,7 +58,7 @@ function FirstSection() {
                 })}
             </div>
             <div>
-              <div classname='ml-32' style={{ height: '550px', marginLeft: '128px',marginRight:'40px' }}>
+              <div classname='' style={{ height: '550px', marginLeft: '128px',marginRight:'40px' }}>
                 <div style={styles.flex1}>
                 <div className='text-white '>Trades</div>
                 <div style={styles.flex}>
