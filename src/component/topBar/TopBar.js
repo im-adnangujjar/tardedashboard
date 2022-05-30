@@ -15,7 +15,7 @@ import social from '../../assets/icons/socialIcon.png'
 
 function TopBar() {
     return (
-        <div className='  pl-9 pt-6'>
+        <div className='pt-6'>
 
             <div style={styles.flex1}>
                 <div style={styles.flex} >

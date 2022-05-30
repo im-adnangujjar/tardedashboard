@@ -16,7 +16,7 @@ import OnButton from '../../onButton /OnButton'
 
 function FirstSection() {
   return (
-    <div className='bg-[#282C30]' style={{ overflow: 'auto', }}>
+    <div className='bg-[#282C30] ' style={{ overflow: 'auto', }}>
       <style>{`
 ::-webkit-scrollbar {
   width: 10px;
@@ -32,20 +32,21 @@ function FirstSection() {
 }
 
     `}</style>
-      <div style={styles.flex}>
+      <div className='mb-5'style={styles.flex}>
         <div>
           <SideBar className='w-20 h-screen' />
         </div>
-        <div >
+        <div className="pl-8">
           <TopBar />
-          <div className=' pl-4' style={styles.flex}>
-            {
-              data.map((item, index) => {
-                return <div key={index}><Rule data={item} /></div>
-              })}
-
+            <div style={styles.scrollbar}>
+              <div style={styles.flex}>
+                {
+                  data.map((item, index) => {
+                    return <div key={index}><Rule data={item} /></div>
+                  })}
+              </div>
           </div>
-          <div className='pl-4' style={styles.flex}>
+          <div  style={styles.flex}>
             <div>
               <div style={styles.flex1} className='mt-8  mb-3'>
                 <h3 className='text-white text-xl pl-4'> Listing (893)</h3>
@@ -82,7 +83,7 @@ function FirstSection() {
             </div>
             <div>
               <div style={{ height: '550px', marginLeft: '128px', marginRight: '40px' }}>
-                <div className='mt-6' style={styles.flex1}>
+                <div className='mt-6 mb-3' style={styles.flex1}>
                   <div className='text-white '>Trades</div>
                   <div style={styles.flex3}>
                     <div className='mr-6'>

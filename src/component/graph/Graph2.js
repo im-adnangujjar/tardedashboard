@@ -1039,7 +1039,7 @@ export default function Graph2() {
     style={{
       backgroundColor:'#202226',
       width:'650px',
-      height:'500px',
+      height:'550px',
     }}
   >
     <style>{`
@@ -1064,7 +1064,7 @@ export default function Graph2() {
         axisBottom={{
             orient: 'bottom',
             tickSize: 16,
-            tickPadding: 14,
+            tickPadding:-5,
             tickRotation: 2,
             legend: 'weight',
             legendPosition: 'middle',

@@ -18,9 +18,15 @@ const styles = {
     },
     scroll: {
         width: '800px',
-        height: '400px',
+        height: '360px',
         overflowY: 'scroll',
         overflowX:'hidden'
+    },
+    scrollbar:{
+        width: '1650px',
+        height: 'auto',
+        overflow: 'scroll',
+        overflowY:'hidden',
     },
 }
 export default styles
