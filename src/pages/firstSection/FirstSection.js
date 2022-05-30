@@ -16,7 +16,7 @@ import OnButton from '../../onButton /OnButton'
 
 function FirstSection() {
   return (
-    <div className='bg-[#282C30] ' style={{ overflow: 'auto', }}>
+    <div className='bg-[#282C30] '>
       <style>{`
 ::-webkit-scrollbar {
   width: 10px;
@@ -59,6 +59,7 @@ function FirstSection() {
               </div>
 
               <div style={styles.scroll}>
+
 
                 {
                   data1.map((item, index) => {

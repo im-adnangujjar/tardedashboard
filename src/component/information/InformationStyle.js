@@ -4,7 +4,7 @@ export const styles = {
         justifyContent: 'space-between',
         alignItems: 'center',
         backgroundColor:' #292B32',
-        height:'35px',
+        height:'51px',
         width:'800px',
         borderRadius:'10px',
         padding:'0px 14px 0px 12px',

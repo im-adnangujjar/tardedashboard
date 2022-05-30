@@ -1,6 +1,6 @@
 import React from 'react'
 import drop from '../../assets/icons/drapDown.png'
-import { styles } from '../information/InformationStyle'
+import { styles } from './DropDownStyle'
 
 function DropDown(props) {
     return (

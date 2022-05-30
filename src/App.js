@@ -8,9 +8,9 @@ import Graph2 from './component/graph/Graph2';
 
 function App() {
   return (
-    <div>
+ 
       <FirstSection />
-    </div>
+    
   );
 }
 
