@@ -143,6 +143,19 @@ export const data1 = [
         buy: "Buy",
         color: '#5AD8A9',
     },
+    {
+        image: image5,
+        title: "Rank:",
+        rank: 4255,
+        rank1: '#6973',
+        time: "8 hours ago",
+        pixel: '1.2x',
+        img: arrow,
+        prc: '80.5%',
+        id: 31,
+        buy: "Buy",
+        color: '#5AD8A9',
+    },
 ]
 
 export const data2 = [
@@ -198,6 +211,16 @@ export const data2 = [
         id: 26,
         color: '#E953C8',
 
+    },
+    {
+        image: image5,
+        title: "Rank:",
+        rank: 4255,
+        rank1: '#6973',
+        time: "8 hours ago",
+        pixel: '1.2x',
+        id: 31,
+        color: '#5AD8A9',
     },
     {
         image: image5,

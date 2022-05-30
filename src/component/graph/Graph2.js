@@ -826,6 +826,7 @@ const data = [
   },
   {
     "id": "group E",
+    
     "data": [
       {
         "x": 66,
@@ -1053,6 +1054,8 @@ export default function Graph2() {
         xFormat=">-.2f"
         yScale={{ type: 'linear', min: 0, max: 'auto' }}
         yFormat=" >-.2f"
+        colors={ '  #28D6E2'}
+      
         blendMode="multiply"
         nodeSize={7}
         enableGridX={false}
@@ -1073,10 +1076,6 @@ export default function Graph2() {
             tickPadding: 5,
             tickRotation: -1,
             legend: 'price ETH',
-            legendFill:'white',
-            textColor:"white",
-            legendBackground:"white",
-            legendItemTextColor:"white",
             legendPosition: 'middle',
             legendOffset: -60
         }}

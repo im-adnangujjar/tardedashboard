@@ -16,7 +16,22 @@ import OnButton from '../../onButton /OnButton'
 
 function FirstSection() {
   return (
-    <div className='bg-[#282C30]' style={{ overflowX: 'auto' }}>
+    <div className='bg-[#282C30]' style={{ overflow: 'auto', }}>
+      <style>{`
+::-webkit-scrollbar {
+  width: 10px;
+  height:10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #2C2F33; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background:  #7740FF;
+  border-radius: 10px;
+}
+
+    `}</style>
       <div style={styles.flex}>
         <div>
           <SideBar className='w-20 h-screen' />
@@ -26,35 +41,44 @@ function FirstSection() {
           <div className=' pl-4' style={styles.flex}>
             {
               data.map((item, index) => {
-                return <div key={index}><Rule data={item}/></div>
+                return <div key={index}><Rule data={item} /></div>
               })}
 
           </div>
           <div className='pl-4' style={styles.flex}>
             <div>
-              <div style={styles.flex1}>
+              <div style={styles.flex1} className='mt-8  mb-3'>
                 <h3 className='text-white text-xl pl-4'> Listing (893)</h3>
                 <div style={styles.flex}>
                   <DropDown title="Rank" />
                   <DropDown title="Price" />
                   <DropDown title="Date" />
                 </div>
+
               </div>
-              {
-                data1.map((item, index) => {
-                  return <Information data1={item} />
-                })}
-              <div style={styles.flex1}>
+
+              <div style={styles.scroll}>
+
+                {
+                  data1.map((item, index) => {
+                    return <Information data1={item} />
+                  })}
+              </div>
+              <div style={styles.flex1} className='mt-8  mb-3'>
                 <h3 className='text-white text-xl pl-4'> Trades <span>(2500)</span></h3>
                 <div style={styles.flex}>
                   <DropDown title="Rank" />
                   <DropDown title="Price" />
                 </div>
               </div>
-              {
-                data2.map((item, index) => {
-                  return <div key={index}><Informationpart2 data2={item} /></div>
-                })}
+              <div style={styles.scroll}>
+
+
+                {
+                  data2.map((item, index) => {
+                    return <div key={index}><Informationpart2 data2={item} /></div>
+                  })}
+              </div>
             </div>
             <div>
               <div style={{ height: '550px', marginLeft: '128px', marginRight: '40px' }}>

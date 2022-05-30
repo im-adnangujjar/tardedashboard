@@ -1,9 +1,10 @@
 import React from 'react'
+import { styles } from './DropButtonStyle'
 
 function DropButton(props) {
   return (
     <div>
-        <select style={{ backgroundColor: '#292B32',color:'white', outline: 'none',padding:'5px' }}
+        <select style={styles.mainContainer} 
                 name="rank" id="rank1">
                 <option value="rank">{props.title}</option>
                 <option value="Rank">Rank</option>
