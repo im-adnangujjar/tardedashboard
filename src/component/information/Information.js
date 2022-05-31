@@ -23,7 +23,7 @@ function Information({ data1 }) {
                 <img className='w-2' src={data1.img} alt="image not found" />
                 <p className='w-24 text-white'>{data1.prc}</p>
                 <img src={eth} alt="image not found" />
-                <p className='mr-20 ml-1 text-white'>{data1.id}</p>
+                <p className='mr-5 ml-1 text-white'>{data1.id}</p>
                 <p className="bg-[#6E34FF] w-16 text-center text-white rounded-md text-sm">{data1.buy}</p>
             </div>
         </div>

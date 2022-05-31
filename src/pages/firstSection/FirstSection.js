@@ -16,7 +16,7 @@ import OnButton from '../../onButton /OnButton'
 
 function FirstSection() {
   return (
-    <div className='bg-[#282C30] '>
+    <div className='bg-[#282C30]'style={{width:'100%',}} >
       <style>{`
 ::-webkit-scrollbar {
   width: 10px;
@@ -32,11 +32,11 @@ function FirstSection() {
 }
 
     `}</style>
-      <div className='mb-5'style={styles.flex}>
+      <div style={styles.flex}>
         <div>
           <SideBar className='w-20 h-screen' />
         </div>
-        <div className="pl-8">
+        <div className="pl-8 mb-5">
           <TopBar />
             <div style={styles.scrollbar}>
               <div style={styles.flex}>
@@ -74,7 +74,6 @@ function FirstSection() {
                 </div>
               </div>
               <div style={styles.scroll}>
-
 
                 {
                   data2.map((item, index) => {

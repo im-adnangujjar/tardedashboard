@@ -17,13 +17,13 @@ const styles = {
         width: '400px',
     },
     scroll: {
-        width: '800px',
+        width: '750px',
         height: '360px',
         overflowY: 'scroll',
         overflowX:'hidden'
     },
     scrollbar:{
-        width: '1650px',
+        width: '1500px',
         height: 'auto',
         overflow: 'scroll',
         overflowY:'hidden',
